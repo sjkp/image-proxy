@@ -6,14 +6,17 @@ import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/api/joke.ts";
 import * as $3 from "./routes/api/webcam.ts";
-import * as $4 from "./routes/camera/[id].tsx";
-import * as $5 from "./routes/camera/index.tsx";
-import * as $6 from "./routes/details.tsx";
-import * as $7 from "./routes/index.tsx";
-import * as $$0 from "./islands/Canvas.tsx";
-import * as $$1 from "./islands/Counter.tsx";
-import * as $$2 from "./islands/OverlayImage.tsx";
-import * as $$3 from "./islands/RefreshingImage.tsx";
+import * as $4 from "./routes/callback.tsx";
+import * as $5 from "./routes/camera/[id].tsx";
+import * as $6 from "./routes/camera/index.tsx";
+import * as $7 from "./routes/details.tsx";
+import * as $8 from "./routes/index.tsx";
+import * as $$0 from "./islands/Callback.tsx";
+import * as $$1 from "./islands/Canvas.tsx";
+import * as $$2 from "./islands/Counter.tsx";
+import * as $$3 from "./islands/Login.tsx";
+import * as $$4 from "./islands/OverlayImage.tsx";
+import * as $$5 from "./islands/RefreshingImage.tsx";
 
 const manifest = {
   routes: {
@@ -21,16 +24,19 @@ const manifest = {
     "./routes/_app.tsx": $1,
     "./routes/api/joke.ts": $2,
     "./routes/api/webcam.ts": $3,
-    "./routes/camera/[id].tsx": $4,
-    "./routes/camera/index.tsx": $5,
-    "./routes/details.tsx": $6,
-    "./routes/index.tsx": $7,
+    "./routes/callback.tsx": $4,
+    "./routes/camera/[id].tsx": $5,
+    "./routes/camera/index.tsx": $6,
+    "./routes/details.tsx": $7,
+    "./routes/index.tsx": $8,
   },
   islands: {
-    "./islands/Canvas.tsx": $$0,
-    "./islands/Counter.tsx": $$1,
-    "./islands/OverlayImage.tsx": $$2,
-    "./islands/RefreshingImage.tsx": $$3,
+    "./islands/Callback.tsx": $$0,
+    "./islands/Canvas.tsx": $$1,
+    "./islands/Counter.tsx": $$2,
+    "./islands/Login.tsx": $$3,
+    "./islands/OverlayImage.tsx": $$4,
+    "./islands/RefreshingImage.tsx": $$5,
   },
   baseUrl: import.meta.url,
 };
